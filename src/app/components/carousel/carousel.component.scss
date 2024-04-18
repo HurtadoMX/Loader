@@ -1,22 +1,21 @@
-/* src/app/components/carousel/carousel.component.scss */
 .image-carousel {
     text-align: center;
     position: relative;
-    width: 100%; /* El carrusel ocupará el 100% del ancho disponible */
-    height: 300px; /* Altura fija del carrusel */
+    width: 100%; 
+    height: 300px; 
   }
   
   .image-container {
     position: relative;
-    height: 100%; /* El contenedor de imagen ocupará el 100% de la altura del carrusel */
+    height: 100%;
   }
   
   ion-img {
     width: auto;
     height: 100%;
-    max-width: none; /* Evita que la imagen se ajuste automáticamente */
+    max-width: none; 
     max-height: 100%;
-    animation: fadeInOut 1s ease-in-out; /* Animación de fundido */
+    animation: fadeInOut 1s ease-in-out; 
   }
   
   @keyframes fadeInOut {
@@ -33,17 +32,17 @@
   
   .caption {
     position: absolute;
-    bottom: 10px; /* Ajusta la posición del texto */
+    bottom: 10px;
     left: 0;
     width: 100%;
-    opacity: 0; /* Comienza con opacidad cero */
-    transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
-    font-family: Arial, sans-serif; /* Cambia la fuente */
-    font-size: 18px; /* Cambia el tamaño de la fuente */
-    font-weight: bold; /* Aplica negrita */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold; 
   }
   
   .image-carousel:hover .caption {
-    opacity: 1; /* Al pasar el ratón, muestra la leyenda */
+    opacity: 1; 
   }
   
