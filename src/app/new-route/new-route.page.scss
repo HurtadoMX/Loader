@@ -1,0 +1,26 @@
+/* src/app/new-route/new-route.page.scss */
+ion-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+  
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+    }
+  }
+  
+  ion-img {
+    width: 100%;
+    height: 200px; // Altura fija para una apariencia uniforme
+    object-fit: cover;
+  }
+  
+  ion-grid {
+    padding: 0;
+  }
+  
+  ion-col {
+    padding: 0 8px;
+  }
+  

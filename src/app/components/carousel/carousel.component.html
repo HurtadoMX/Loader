@@ -1,0 +1,7 @@
+<!-- src/app/components/carousel/carousel.component.html -->
+<ion-card class="image-carousel" *ngIf="showCarousel">
+  <ion-card-content class="image-container">
+    <ion-img [src]="images[currentImageIndex].src" alt="Carousel Image"></ion-img>
+  </ion-card-content>
+  <div class="caption">{{ images[currentImageIndex].text }}</div>
+</ion-card>

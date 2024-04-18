@@ -1,20 +1,16 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Inicio</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <ion-card class="container">
+    <ion-card-content>
+      <ion-card-title class="title">Bienvenido a nuestra demostración</ion-card-title>
+      <ion-card-subtitle class="subtitle">Este es un demo de un carrusel con un loader integrado.</ion-card-subtitle>
+      <ion-button (click)="showCarousel()" expand="block" color="primary" class="custom-button">Mostrar Carrusel</ion-button>
+      <app-carousel *ngIf="displayCarousel"></app-carousel>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
