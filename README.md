@@ -27,7 +27,7 @@ El servicio de loader utiliza un Observable para emitir el estado de carga. Este
 El servicio de loader (`LoaderService`) proporciona métodos para mostrar y ocultar el loader. Utiliza un BehaviorSubject para emitir el estado de carga a todos los componentes que estén suscritos a él. El loader es un componente independiente y funcionable en cuaquier partes de la aplicación donde se requiera.
 
 ## Contribución
-¡Estamos abiertos a contribuciones! Si deseas contribuir a este proyecto, sigue estos pasos:
+¡Estoy abierto a contribuciones! Si deseas contribuir a este proyecto, sigue estos pasos:
 
 1. Haz un fork del repositorio.
 2. Clona tu fork en tu máquina local.
